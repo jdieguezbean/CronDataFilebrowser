@@ -1,8 +1,17 @@
 {
-  "port": 80,
-  "baseURL": "",
-  "address": "",
-  "log": "stdout",
+  "port": 8081,
+  "address": "0.0.0.0",
   "database": "/database.db",
-  "root": "/srv"
+  "baseurl": "/filebrowser",
+  "auth": {
+    "method": "none"
+  },
+  "defaults": {
+    "scope": "/etc/prometheus/alerts/",
+    "allowCommands": false,
+    "allowEdit": true,
+    "allowNew": true,
+    "commands": []
+  },
+  "noauth": true
 }
