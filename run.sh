@@ -1,5 +1,4 @@
 #!/bin/bash
-
 cd /
 chmod 777 filebrowser
 chmod 777 -R /etc/prometheus/alerts/
